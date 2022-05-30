@@ -16,7 +16,6 @@ while True:
 
      
     elif user_input.isalpha or user_input.isalnum:
-        print("invalid")
-        continue    
+        print("invalid")  
         continue
     # continuous input    
