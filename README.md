@@ -1,5 +1,3 @@
 # krag_calculator
-1 - this short program converts the user_input(price in Rands) to units of electricity(kwh).
-2 - for the most part it works.
-3 - added Html and CSS
-Ps - Cape Town, South Africa, [flat rate]  
+this short program converts the user_input(price in Rands) to units of electricity(kwh), for the most part it works, added Html and CSS,
+Ps - this program refers to Cape Town, South Africa, [flat rate]  
