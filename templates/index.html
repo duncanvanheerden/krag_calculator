@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <title>krag_calculator</title>
+</head>
+
+<body>
+
+    <div class="container">
+        
+        <h1 class="name">Krag Calculator</h1>
+        
+        <form method="post" action="/">
+
+        <label>Rands</label>
+
+        <input type="number" class="form-control" name="rands" value="{{rands}}">
+
+        <button style='text-align:center' type="submit" class="button">Get/Reset: units</button>
+
+        <p style="font-size: 30px">Units: {{units}}
+
+        </form>
+
+    </div>
+    
+</body>
+</html>
